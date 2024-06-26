@@ -1,6 +1,6 @@
-const path = require("path");
-const loaderUtils = require("loader-utils");
-const MangleCssClassPlugin = require("mangle-css-class-webpack-plugin");
+import path from 'path';
+import loaderUtils from 'loader-utils';
+import MangleCssClassPlugin from 'mangle-css-class-webpack-plugin';
 
 // based on https://github.com/vercel/next.js/blob/992c46e63bef20d7ab7e40131667ed3debaf67de/packages/next/build/webpack/config/blocks/css/loaders/getCssModuleLocalIdent.ts
 // const hashOnlyIdent = (context, _, exportName) =>
