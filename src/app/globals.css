@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root{
   --bg: transparent;
@@ -105,7 +102,7 @@
   --story-padding: 1rem;
   --radius: 0.375rem;
   --radius-large: 0.75rem;
-  --radius-auto: Max(0px, Min(var(--radius), calc((100vw - 4px - 100%) * 9999))) / var(--radius);
+  --radius-auto: Max(0px, Min(var(--radius), calc((100vw - 4px - 100%) * 9999))) \ var(--radius);
   --1h--base: 1.5;
   --lh-base: 1.5;
   --lh-tight: 1.25;
@@ -720,7 +717,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -969,7 +966,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -1368,7 +1365,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -1592,7 +1589,7 @@ a{
   .crayons-subtitle-2{
     font-size: var(--fs-xl);
   }
-  .s/:flex{
+  .s\:flex{
     display: flex;
   }
   .crayons-navigation__item .crayons-navigation__item--current{
