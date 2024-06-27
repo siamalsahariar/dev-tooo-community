@@ -1,3 +1,9 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
+
+
 import path from 'path';
 import loaderUtils from 'loader-utils';
 import MangleCssClassPlugin from 'mangle-css-class-webpack-plugin';
